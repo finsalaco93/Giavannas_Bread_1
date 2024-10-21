@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giavanna's Bread Co</title>
+
+  <!-- CSS File Link -->
+   <link rel="stylesheet" href="styles.css">
+   <!-- Boxicon File Link -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <!-- header -->
+  <input type="checkbox" id="cart">
+  <label for="cart" class="label-cart"><i class='bx bxs-cart'></i></label>
+
+  <h3 class="logo">Giavanna's Bread Co.</h3>
+  
+  <!-- sidebar -->
+   <div class="sidebar">
+    <div class="sidebar-menu">
+      <i class='bx bx-search-alt-2' ></i>
+      <a href="#">Search</a>
+    </div>
+    <div class="sidebar-menu">
+      <i class='bx bx-home' ></i>
+      <a href="#">Home</a>
+    </div>
+    <div class="sidebar-menu">
+      <i class='bx bx-heart' ></i>
+      <a href="#">Favs</a>
+    </div>
+    <div class="sidebar-menu">
+      <i class='bx bx-user' ></i>
+      <a href="#">Profile</a>
+    </div>
+    <div class="sidebar-menu">
+      <i class='bx bx-filter' ></i>
+      <a href="#">Filters</a>
+    </div>
+   </div>
+
+  <!-- main dahsboard -->
+   <div class="dashboard">
+    <div class="dashboard-banner">
+      <img src="images/images-banner1.jpg">
+      <div class="banner-promo">
+        <h1><span>50% OFF</span><br>
+        Delicious<br>Holiday Bread</h1>
+      </div>
+    </div>
+
+    <h3 class="dashboard-title">Recommended Food For You</h3>
+    <div class="dashboard-menu">
+      <a href="#">Favorites</a>
+      <a href="#">Best Sellers</a>
+      <a href="#">Promotions</a>
+      <a href="#">Top Rated</a>
+      <a href="#">All</a>
+    </div>
+
+    <div class="dashboard-content">
+
+      <div class="dashboard-card">
+        <img class="card-image" src="images/image-1.jpg">
+        <div class="card-detail">
+          <h4>Bread 1 <span>$15</span></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-time"><i class='bx bx-time' ></i>15-30 min</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <img class="card-image" src="images/image-2.jpg">
+        <div class="card-detail">
+          <h4>Bread 2 <span>$20</span></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-time"><i class='bx bx-time' ></i>30-45 min</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <img class="card-image" src="images/image-3.jpg">
+        <div class="card-detail">
+          <h4>Bread 3 <span>$25</span></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-time"><i class='bx bx-time' ></i>30-45 min</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <img class="card-image" src="images/image-4.jpg">
+        <div class="card-detail">
+          <h4>Bread 4 <span>$20</span></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-time"><i class='bx bx-time' ></i>20-25 min</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <img class="card-image" src="images/image-5.jpg">
+        <div class="card-detail">
+          <h4>Bread 5 <span>$10</span></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-time"><i class='bx bx-time' ></i>10-15 min</p>
+        </div>
+      </div>
+
+      <div class="dashboard-card">
+        <img class="card-image" src="images/image-6.jpg">
+        <div class="card-detail">
+          <h4>Bread 6 <span>$15</span></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p class="card-time"><i class='bx bx-time' ></i>15-25 min</p>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  <!-- order dashboard -->
+   <div class="dashboard-order">
+    <h3>Order Menu</h3>
+    <div class="order-address">
+      <p>Address delivery</p>
+      <h4>123 Example St, New York</h4>
+    </div>
+    <div class="order-time">
+      <i class='bx bxs-time' ></i> 30 mins <i class='bx bxs-map' ></i> 2 miles
+    </div>
+
+    <div class="order-wrapper">
+
+      <div class="order-card">
+        <img class="order-image" src="images/image-4.jpg">
+        <div class="order-detail">
+          <p>Bread 4</p>
+          <i class='bx bx-x'></i> <input type="text" value="1">
+        </div>
+        <h4 class="order-price">$25</h4>
+      </div>
+
+      <div class="order-card">
+        <img class="order-image" src="images/image-2.jpg">
+        <div class="order-detail">
+          <p>Bread 2</p>
+          <i class='bx bx-x'></i> <input type="text" value="2">
+        </div>
+        <h4 class="order-price">$15</h4>
+      </div>
+
+      <div class="order-card">
+        <img class="order-image" src="images/image-3.jpg">
+        <div class="order-detail">
+          <p>Bread 3</p>
+          <i class='bx bx-x'></i> <input type="text" value="3">
+        </div>
+        <h4 class="order-price">$20</h4>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="order-total">
+      <p>Subtotal <span>$100</span></p>
+      <p>Tax (10%) <span>$10.00</span></p>
+      <p>Delivery Fee <span>$3</span></p>
+
+      <div class="order-promo">
+        <input type="text" placeholder="Promo Code" class="input-promo">
+        <button class="button-promo">Apply Code</button>
+      </div>
+      <hr class="divider">
+      <p>Total <span>$113.00</span></p>
+    </div>
+    <button class="checkout">
+      Checkout
+    </button>
+   </div>
+
+</body>
+</html>
